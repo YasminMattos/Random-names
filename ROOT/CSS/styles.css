@@ -1,6 +1,74 @@
-.nav-menu {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
-.first-list {
-    color: green;
+
+.container {
+    background-color: #231f20;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 120px;
+    
+}
+
+.search-section {
+    display: flex;
+}
+
+#paragraph {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.img-container {
+    background-image: url(https://cdn.colombia.com/sdi/2020/11/06/los-muppets-disney-plus-muppets-now-la-rana-rene-869260.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 30%;
+    height: 40vh;
+    display: block;
+    padding: 2em 0;
+    background-repeat: no-repeat;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.name-container {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.random-name {
+    border: grey solid 2px;
+}
+
+.btn-generator {
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 24px;
+    color: white;
+    background: rgb(212,139,20);
+    background: linear-gradient(90deg, rgba(212,139,20,1) 0%, rgba(222,20,10,1) 35%);
+
+}
+
+.btn-generator:hover {
+    box-shadow: 0px 12px 24px 25px rgba(0, 0, 0, 0.08);
+-webkit-box-shadow: 0px 12px 24px 25px rgba(0, 0, 0, 0.08);
 }
